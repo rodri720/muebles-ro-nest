@@ -1,0 +1,14 @@
+POST http://localhost:3000/todo HTTP/1.1
+Content-Type: application/json
+
+ {
+    "title": "",
+    "description":"Learn nest js and create a proyect"
+ }
+ ###
+ PUT http://localhost:3000/todo/5e-yxl1T4EsAdh7olqB7IBqR7MLVb HTTP/1.1
+ Content-Type: application/json
+
+  {
+    "status":"IN-PROGRESS"
+ }
